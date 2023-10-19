@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    overflow: hidden;
 }
 
         /* navigation bar */
@@ -573,5 +574,20 @@ a:hover{
     #copyright{
         background-color: black;
         color: white;
+    }
+}
+@media(max-width:420px){
+      #tagline{
+        font-size:30px;
+      }
+}
+@media(max-width:420px){
+    #tagline{
+      font-size:30px;
+    }
+}
+@media(max-width:420px){
+    #home-left{
+      width: 60%;
     }
 }
